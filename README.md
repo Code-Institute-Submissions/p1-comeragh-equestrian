@@ -79,7 +79,7 @@ The equestrian centre has been in business for over 20 years. You have been give
 
 | Surface   | Focus                                                       | Visual Design                                                                                                                                                                                                                         
 |-----------|-------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-|           | What will the finished product look like?                   | Fonts: @import url('https://fonts.googleapis.com/css?family=Poppins:300|Roboto:300,400');                            |
+|           | What will the finished product look like?                   | Fonts: @import url('https://fonts.googleapis.com/css?family=Poppins:300&#124;Roboto:300,400');                            |
 |           |                                                             | 2b2118                                                                                                               |
 |           | What colours, typography and design elements will be used?  | 894334                                                                                                               |
 |           |                                                             | f7f4e5                                                                                                               |
