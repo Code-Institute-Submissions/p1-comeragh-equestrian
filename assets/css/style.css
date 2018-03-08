@@ -1,1 +1,120 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300|Roboto:300,400');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,600|Roboto:300,400,500');
+
+/*----------------------------Navigation */
+
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+}
+
+.navbar-default .navbar-collapse {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-color: transparent;
+    transition: all 0.2s ease-in-out;
+}
+
+.navbar-nav-container {
+    height: 100vh;
+    width: 100%;
+    /* Vertically align content of container */
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav {
+    margin-left: 30px;
+
+}
+
+.navbar-nav>li {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.navbar-nav>li>a {
+    display: inline;
+}
+
+.navbar-nav>.home {
+    font-weight: 300;
+    margin-left: -20px;
+}
+
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li.active {
+    color: #f7f4e5;
+    background-color: transparent;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 50vh;
+    right: 0;
+    z-index: 1;
+}
+
+.nav-icons {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact-links ul,
+.social-links ul {
+    padding: 0;
+}
+
+.contact-links i,
+.social-links i {
+    width: 32px;
+    height: 32px;
+    padding-top: 11px;
+    margin: 5px;
+    border-radius: 50%;
+    border: 1px solid #f7f4e5;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #f7f4e5;
+    background-color: transparent;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+
+/*----------------------------Home */
+
+.callout-container {
+    height: 100vh;
+    background: url(../images/bg-home.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*----------------------------Media Queries */
+
+@media (min-width: 768px) {
+
+    .navbar-collapse {
+        background-color: transparent;
+    }
+
+    .navbar-nav-container {
+        height: 50px;
+
+        /* Vertically align content of container */
+        display: block;
+    }
+
+}
