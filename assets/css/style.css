@@ -2,7 +2,7 @@
 
 /*----------------------------Navigation */
 
-.navbar {
+.navbar-main {
     margin-bottom: 0;
     position: absolute;
     left: 0;
@@ -10,7 +10,7 @@
     width: 100%;
     background-color: transparent;
     border: 0;
-    z-index: 1;
+    z-index: 1031;
 }
 
 .navbar>.container-fluid {
@@ -21,9 +21,25 @@
     padding: 0;
 }
 
-.navbar-default .navbar-collapse {
+
+.navbar-bg-image .navbar-collapse.collapse {
+    max-height: 100vh;
+    height: 100vh !important;
+    width: 50%;
+    /*background-color: rgba(0, 0, 0, 0.7);*/
+    background: url(../images/bg-home.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    border-color: transparent;
+    transition: all 0.2s ease-in-out;
+}
+
+.navbar-main .navbar-collapse {
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.9);
     border-color: transparent;
     transition: all 0.2s ease-in-out;
 }
