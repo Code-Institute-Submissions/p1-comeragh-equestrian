@@ -152,6 +152,15 @@
 
 /*----------------------------Home */
 
+.home-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;    
+    left: 0;
+    background: rgba(0,0,0,0.1);
+}
+
 .callout-container {
     height: 100vh;
     background: url(../images/bg-home.jpeg) no-repeat center center fixed;
