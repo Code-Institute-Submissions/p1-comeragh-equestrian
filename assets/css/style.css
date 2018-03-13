@@ -7,6 +7,22 @@ a:hover {
     text-decoration: none;
 }
 
+/* Icons */
+
+.bordered-icon {
+    width: 36px;
+    height: 36px;
+    padding-top: 13px;
+    margin: 4px 7px;
+    border-radius: 50%;
+    border: 1px solid #f7f4e5;
+    font-size: 17px;
+    line-height: 7px;
+    text-align: center;
+    color: #f7f4e5;
+    background-color: transparent;
+}
+
 /*--------------------------------------------------Navigation */
 
 .navbar-main {
@@ -104,21 +120,6 @@ a:hover {
     padding: 0;
 }
 
-.contact-links i,
-.social-links i {
-    width: 36px;
-    height: 36px;
-    padding-top: 13px;
-    margin: 4px 7px;
-    border-radius: 50%;
-    border: 1px solid #f7f4e5;
-    font-size: 17px;
-    line-height: 7px;
-    text-align: center;
-    color: #f7f4e5;
-    background-color: transparent;
-}
-
 /* Navigation toggle button */
 
 #nav-toggle {
@@ -151,7 +152,7 @@ a:hover {
     color: #f7f4e5;
 }
 
-#nav-toggle[aria-expanded="true"] .fa-bars:before {
+#navbar.in~#nav-toggle>.fa-bars:before {
     content: "\f00d";
 }
 
@@ -175,6 +176,7 @@ a:hover {
 }
 
 /*--------------------------------------------------Header */
+
 .header {
     margin-top: 20px;
 }
@@ -201,7 +203,7 @@ a:hover {
 
 /* BG Video */
 
-.bg-video {
+.home-section .bg-video {
     position: fixed;
     top: 0;
     left: -85%;
@@ -210,7 +212,7 @@ a:hover {
     z-index: -1;
 }
 
-.home-overlay {
+.home-section .home-overlay {
     height: 100%;
     width: 100%;
     position: absolute;
@@ -220,7 +222,9 @@ a:hover {
     z-index: -1;
 }
 
-.callout-container {
+/* Callout */
+
+.home-section .callout-container {
     position: absolute;
     top: 0;
     left: 0;
@@ -232,45 +236,75 @@ a:hover {
     justify-content: center;
 }
 
-.callout-container.container-fluid {
+.home-section .callout-container.container-fluid {
     padding: 0;
 }
 
-.callout-container .jumbotron {
+.home-section .callout-container .jumbotron {
     background-color: transparent;
     color: #f7f4e5;
     font-family: "Poppins", sans-serif;
 }
 
-.callout-container h2 {
+.home-section .callout-container h2 {
     font-weight: 100;
 }
 
-.callout-container .jumbotron span {
+.home-section .callout-container .jumbotron span {
     display: block;
     margin-bottom: 10px;
 }
 
-.callout-btn {
+.home-section .callout-btn {
     margin-top: 20px;
+}
+
+/* Contact */
+
+.home-section .contact-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.home-section .contact-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.home-section .contact-container .well {
+    background-color: transparent;
+    color: #f7f4e5;
+    padding: 14px;
+    height: 100px;
+}
+
+.home-section .contact-container .well a {
+    color: #f7f4e5;
+    display: block;
+}
+
+.home-section .contact-container .well i {
+    margin: 10px;
 }
 
 /*--------------------------------------------------Media Queries */
 
 @media (min-width: 540px) {
-    .bg-video {
+    .home-section .bg-video {
         left: -50%;
     }
 }
 
 @media (min-width: 768px) {
-    .bg-video {
+    .home-section .bg-video {
         left: -28%;
     }
 }
 
 @media (min-width: 992px) {
-    .bg-video {
+    .home-section .bg-video {
         left: 0;
     }
 }
