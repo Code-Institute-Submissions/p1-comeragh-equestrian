@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,600|Roboto:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,300,600|Roboto:300,400,500');
 
 /*--------------------------------------------------General Styling */
 
@@ -124,7 +124,7 @@ a:hover {
 #nav-toggle {
     display: block;
     position: absolute;
-    top: 50vh;
+    top: 45vh;
     right: 0;
     z-index: 1;
     margin: 0;
@@ -175,6 +175,9 @@ a:hover {
 }
 
 /*--------------------------------------------------Header */
+.header {
+    margin-top: 20px;
+}
 
 .heading a {
     font-family: "Poppins", sans-serif;
@@ -217,7 +220,40 @@ a:hover {
     z-index: -1;
 }
 
-.callout-container {}
+.callout-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    /* Vertically align content of container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.callout-container.container-fluid {
+    padding: 0;
+}
+
+.callout-container .jumbotron {
+    background-color: transparent;
+    color: #f7f4e5;
+    font-family: "Poppins", sans-serif;
+}
+
+.callout-container h2 {
+    font-weight: 100;
+}
+
+.callout-container .jumbotron span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.callout-btn {
+    margin-top: 20px;
+}
 
 /*--------------------------------------------------Media Queries */
 
