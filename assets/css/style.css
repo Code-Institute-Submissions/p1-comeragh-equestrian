@@ -172,7 +172,7 @@
 .bg-video {
     position: fixed;
     top: 0;
-    left: -60%;
+    left: -85%;
     min-width: 100%;
     min-height: 100%;
 }
@@ -191,6 +191,12 @@
 .callout-container {}
 
 /*----------------------------Media Queries */
+
+@media (min-width: 540px) {
+    .bg-video {
+        left: -50%;
+    }
+}
 
 @media (min-width: 768px) {
     .bg-video {
