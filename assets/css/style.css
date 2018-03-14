@@ -2,6 +2,19 @@
 
 /*--------------------------------------------------General Styling */
 
+body {
+    background-color: #f7f4e5;
+    font-family: "Roboto", sans-serif;
+}
+
+.section-default {
+    margin-top: 130px;
+}
+
+.section-heading {
+    /*padding-top: 20px;*/
+}
+
 a,
 a:hover {
     text-decoration: none;
@@ -180,14 +193,6 @@ a:hover {
 
 /* Maintain toggle nav in table and desktop */
 
-.navbar-collapse.collapse {
-    /*display: none!important;*/
-}
-
-.navbar-collapse.collapse.in {
-    /*display: block!important;*/
-}
-
 .navbar-nav {
     float: none!important;
 }
@@ -200,7 +205,7 @@ a:hover {
 
 .header {
     position: absolute;
-    top: 20px;
+    top: 10px;
     left: 0;
     right: 0;
     z-index: 1;
@@ -208,8 +213,12 @@ a:hover {
 
 .heading a {
     font-family: "Poppins", sans-serif;
-    color: #f7f4e5;
+    color: #000;
     display: inline-block;
+}
+
+.home-heading a {
+    color: #f7f4e5;
 }
 
 .heading span {
@@ -218,10 +227,14 @@ a:hover {
 
 .heading hr {
     border: none;
-    border-top: medium double #f7f4e5;
+    border-top: medium double #000;
     margin-top: 0;
     margin-bottom: -3px;
     text-align: center;
+}
+
+.home-heading hr {
+    border-color: #f7f4e5;
 }
 
 /*--------------------------------------------------Home */
