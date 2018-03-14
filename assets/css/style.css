@@ -44,27 +44,41 @@ a:hover {
     padding: 0;
 }
 
+.navbar-main,
+.navbar-bg-image {
+    min-height: 0;
+}
 
-.navbar-bg-image .navbar-collapse.collapse {
+/* Navbar collapse */
+
+.navbar-main .navbar-collapse,
+.navbar-bg-image .navbar-collapse {
+    display: block;
+    height: 0 !important;
+    overflow: hidden;
+    border-color: transparent;
+}
+
+.navbar-collapse.in {
     max-height: 100vh;
     height: 100vh !important;
-    width: 50%;
-    /*background-color: rgba(0, 0, 0, 0.7);*/
-    background: url(../images/bg-home.jpeg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 
-    border-color: transparent;
-    transition: all 0.2s ease-in-out;
+    transition: height 1s ease;
+}
+
+
+.navbar-bg-image .navbar-collapse {
+    background-color: #525252;
+    width: 50%;
+    /*background: url(../images/bg-home.jpeg) no-repeat center center fixed;*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
 }
 
 .navbar-main .navbar-collapse {
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.9);
-    border-color: transparent;
-    transition: all 0.2s ease-in-out;
+    background-color: #000;
 }
 
 .navbar-nav-container {
@@ -72,6 +86,13 @@ a:hover {
     /* Vertically align content of container */
     display: flex;
     align-items: center;
+    opacity: 0;
+    /*transition: opacity 0.1s ease-out;*/
+}
+
+#navbar.in .navbar-nav-container {
+    opacity: 1;
+    transition: opacity 0.5s ease-in 0.6s;
 }
 
 .navbar-nav-wrapper {
@@ -160,11 +181,11 @@ a:hover {
 /* Maintain toggle nav in table and desktop */
 
 .navbar-collapse.collapse {
-    display: none!important;
+    /*display: none!important;*/
 }
 
 .navbar-collapse.collapse.in {
-    display: block!important;
+    /*display: block!important;*/
 }
 
 .navbar-nav {
@@ -178,7 +199,11 @@ a:hover {
 /*--------------------------------------------------Header */
 
 .header {
-    margin-top: 20px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    z-index: 1;
 }
 
 .heading a {
@@ -219,7 +244,6 @@ a:hover {
     top: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.6);
-    z-index: -1;
 }
 
 /* Callout */
@@ -257,6 +281,9 @@ a:hover {
 
 .home-section .callout-btn {
     margin-top: 20px;
+    color: #f7f4e5;
+    background-color: #c31800;
+    border-color: #c31800
 }
 
 /* Contact */
@@ -276,6 +303,7 @@ a:hover {
 .home-section .contact-container .well {
     background-color: transparent;
     color: #f7f4e5;
+    border-color: #f7f4e5;
     padding: 14px;
     height: 100px;
 }
@@ -286,7 +314,8 @@ a:hover {
 }
 
 .home-section .contact-container .well i {
-    margin: 10px;
+    display: block;
+    margin: 10px auto;
 }
 
 /*--------------------------------------------------Media Queries */
@@ -298,6 +327,9 @@ a:hover {
 }
 
 @media (min-width: 768px) {
+    /*.navbar-main .navbar-collapse {*/
+    /*    height: 100vh !important;*/
+    /*}*/
     .home-section .bg-video {
         left: -28%;
     }
