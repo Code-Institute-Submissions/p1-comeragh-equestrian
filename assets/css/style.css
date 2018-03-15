@@ -7,16 +7,46 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Poppins", sans-serif;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
 .section-default {
     margin-top: 130px;
 }
 
 .section-heading {
-    /*padding-top: 20px;*/
+    height: 15%;
+}
+
+.section-name {
+    color: #f7f4e5;
+    font-size: 22px;
+    line-height: 25px;
+    padding-left: 25px;
+}
+
+.caption .section-name {
+    position: relative;
+    margin-top: -55px;
+    padding: 15px 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.section-info {
+    padding: 15px;
 }
 
 a,
 a:hover {
+    color: #000;
     text-decoration: none;
 }
 
@@ -49,10 +79,6 @@ a:hover {
     z-index: 1031;
 }
 
-.navbar>.container-fluid {
-    padding: 0;
-}
-
 .navbar>.container-fluid>.col-sm-6 {
     padding: 0;
 }
@@ -76,7 +102,7 @@ a:hover {
     max-height: 100vh;
     height: 100vh !important;
 
-    transition: height 1s ease;
+    transition: height 0.5s ease;
 }
 
 
@@ -100,12 +126,11 @@ a:hover {
     display: flex;
     align-items: center;
     opacity: 0;
-    /*transition: opacity 0.1s ease-out;*/
 }
 
 #navbar.in .navbar-nav-container {
     opacity: 1;
-    transition: opacity 0.5s ease-in 0.6s;
+    transition: opacity 0.2s ease-in 0.4s;
 }
 
 .navbar-nav-wrapper {
@@ -140,6 +165,20 @@ a:hover {
     background-color: transparent;
 }
 
+.nav-links,
+.nav-icons {
+    display: none;
+}
+
+#navbar.in .nav-links,
+#navbar.in .nav-icons {
+    display: block;
+}
+
+.nav-links {
+    margin-left: 60px;
+}
+
 .nav-icons {
     text-align: center;
     margin-top: 20px;
@@ -160,7 +199,7 @@ a:hover {
     display: block;
     position: absolute;
     top: 45vh;
-    right: 0;
+    right: 10px;
     z-index: 1;
     margin: 0;
 }
@@ -190,7 +229,6 @@ a:hover {
     content: "\f00d";
 }
 
-
 /* Maintain toggle nav in table and desktop */
 
 .navbar-nav {
@@ -212,8 +250,6 @@ a:hover {
 }
 
 .heading a {
-    font-family: "Poppins", sans-serif;
-    color: #000;
     display: inline-block;
 }
 
@@ -271,10 +307,6 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.home-section .callout-container.container-fluid {
-    padding: 0;
 }
 
 .home-section .callout-container .jumbotron {
@@ -340,11 +372,20 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-    /*.navbar-main .navbar-collapse {*/
-    /*    height: 100vh !important;*/
-    /*}*/
     .home-section .bg-video {
         left: -28%;
+    }
+    .row-table {
+        display: table;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    .section-heading .section-col {
+        padding: 0;
+        color: #f7f4e5;
+        display: table-cell;
+    }
+    .section-info {
+        padding: 25px;
     }
 }
 
