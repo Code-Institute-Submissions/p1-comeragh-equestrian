@@ -29,11 +29,11 @@ ul {
     border: none;
     border-top: medium double #000;
     width: 40%;
-    margin: 30px auto;
+    margin: 10px auto;
 }
 
 .list-default {
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 .list-default .list-name {
@@ -444,7 +444,8 @@ ul {
 .lessons,
 .camps,
 .facilities {
-    padding: 25px 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .camps {
@@ -545,5 +546,5 @@ ul {
     .lessons-container .list-default {
         margin-left: 0;
     }
-    
+
 }
