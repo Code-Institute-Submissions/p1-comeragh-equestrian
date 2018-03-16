@@ -14,9 +14,37 @@ h4 {
     font-family: "Poppins", sans-serif;
 }
 
+a,
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
+}
+
+.hr-default {
+    border: none;
+    border-top: medium double #000;
+    width: 40%;
+    margin: 30px auto;
+}
+
+.list-default {
+    margin-left: 40px;
+}
+
+.list-default .list-name {
+    margin-top: 20px;
+}
+
+.list-default i {
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+    padding-right: 10px;
 }
 
 .container-fluid {
@@ -36,6 +64,10 @@ ul {
     height: 150px;
 }
 
+.section-content {
+    /*padding-bottom: 40px;*/
+}
+
 .section-name {
     color: #f7f4e5;
     line-height: 150px;
@@ -46,12 +78,6 @@ ul {
 .section-info {
     padding: 15px 30px;
     margin-top: 10px;
-}
-
-a,
-a:hover {
-    color: #000;
-    text-decoration: none;
 }
 
 /* Icons */
@@ -404,12 +430,32 @@ a:hover {
     background-size: cover;
 }
 
+/*--------------------------------------------------Lessons*/
+
+.lessons-section .section-heading {
+    background: url(../images/lessons-section.jpg) no-repeat center center;
+}
+
+.lessons-container,
+.facilities {
+    padding: 0;
+}
+
+.lessons,
+.camps,
+.facilities {
+    padding: 25px 0;
+}
+
+.camps {
+    background-color: #d6d3c4;
+}
+
 /*--------------------------------------------------Footer */
 
 .footer {
     background-color: #333;
     color: #f7f4e5;
-    margin-top: 40px;
     padding: 30px;
 }
 
@@ -432,21 +478,22 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-    .home-section .bg-video {
-        left: -28%;
-    }
+    /* General */
     .row-table {
         display: table;
-        background-color: rgba(0, 0, 0, 0.8);
     }
-    .section-heading .section-col {
-        padding: 0;
-        color: #f7f4e5;
+    .table-column {
         display: table-cell;
+        float: none;
     }
     .section-info {
         padding: 25px 60px;
     }
+    /* Home */
+    .home-section .bg-video {
+        left: -28%;
+    }
+    /* About */
     .about-link {
         height: 200px;
         margin-top: 20px;
@@ -459,6 +506,17 @@ a:hover {
     }
     .about-link-livery {
         margin-left: 10px;
+    }
+    /* Lessons */
+    .lessons-container .camps {
+        background-color: #f7f4e5;
+    }
+    .facilities {
+        background-color: #d6d3c4;
+        padding-right: 20px;
+    }
+    .facilities .list-default {
+        margin-left: 30px;
     }
 }
 
@@ -473,10 +531,19 @@ a:hover {
     .section-name {
         line-height: 200px;
     }
+    /* About */
     .about-link {
         height: 250px;
     }
     .about-link a {
         line-height: 250px;
     }
+    /* Lessons */
+    .lessons-container img {
+        padding-left: 45px;
+    }
+    .lessons-container .list-default {
+        margin-left: 0;
+    }
+    
 }
