@@ -29,12 +29,12 @@ h4 {
 .section-name {
     color: #f7f4e5;
     line-height: 150px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     margin: 0;
 }
 
 .section-info {
-    padding: 15px;
+    padding: 15px 30px;
     margin-top: 10px;
 }
 
@@ -191,7 +191,7 @@ a:hover {
 
 #nav-toggle {
     display: block;
-    position: absolute;
+    position: fixed;
     top: 45vh;
     right: 10px;
     z-index: 1;
@@ -202,14 +202,13 @@ a:hover {
     width: 50px;
     height: 50px;
     padding-top: 20px;
-    margin-right: 20px;
     border-radius: 50%;
     border: 2px solid #f7f4e5;
     font-size: 25px;
     line-height: 7px;
     text-align: center;
     color: #f7f4e5;
-    background-color: #c31800;
+    background-color: rgba(195, 24, 0, 0.8);
 
 }
 
@@ -358,8 +357,15 @@ a:hover {
 }
 
 /*--------------------------------------------------About */
+
 .about-section .section-heading {
     background: url(../images/about-section.jpg) no-repeat center center;
+}
+
+.about-links {
+    background-color: #52342a;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .about-link {
@@ -422,11 +428,11 @@ a:hover {
         display: table-cell;
     }
     .section-info {
-        padding: 25px;
+        padding: 25px 60px;
     }
     .about-link {
         height: 200px;
-        margin-top: 50px;
+        margin-top: 20px;
     }
     .about-link a {
         line-height: 200px;
@@ -442,5 +448,18 @@ a:hover {
 @media (min-width: 992px) {
     .home-section .bg-video {
         left: 0;
+    }
+    .section-heading {
+        height: 200px;
+    }
+
+    .section-name {
+        line-height: 200px;
+    }
+    .about-link {
+        height: 250px;
+    }
+    .about-link a {
+        line-height: 250px;
     }
 }
