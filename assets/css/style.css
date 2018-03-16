@@ -23,25 +23,19 @@ h4 {
 }
 
 .section-heading {
-    height: 15%;
+    height: 150px;
 }
 
 .section-name {
     color: #f7f4e5;
-    font-size: 22px;
-    line-height: 25px;
-    padding-left: 25px;
-}
-
-.caption .section-name {
-    position: relative;
-    margin-top: -55px;
-    padding: 15px 0;
-    background-color: rgba(0, 0, 0, 0.6);
+    line-height: 150px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0;
 }
 
 .section-info {
     padding: 15px;
+    margin-top: 10px;
 }
 
 a,
@@ -363,11 +357,54 @@ a:hover {
     margin: 10px auto;
 }
 
+/*--------------------------------------------------About */
+.about-section .section-heading {
+    background: url(../images/about-section.jpg) no-repeat center center;
+}
+
+.about-link {
+    border: 1px solid #000;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.about-link a {
+    display: block;
+    height: 100%;
+    line-height: 150px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #f7f7e5;
+}
+
+.about-link-lessons {
+    margin-left: 30px;
+    background: url(../images/about-lessons.jpeg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.about-link-livery {
+    margin-right: 30px;
+    background: url(../images/about-livery.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 /*--------------------------------------------------Media Queries */
 
 @media (min-width: 540px) {
     .home-section .bg-video {
         left: -50%;
+    }
+    .about-link {
+        height: 200px;
+    }
+    .about-link a {
+        line-height: 200px;
     }
 }
 
@@ -386,6 +423,19 @@ a:hover {
     }
     .section-info {
         padding: 25px;
+    }
+    .about-link {
+        height: 200px;
+        margin-top: 50px;
+    }
+    .about-link a {
+        line-height: 200px;
+    }
+    .about-link-lessons {
+        margin-right: 10px;
+    }
+    .about-link-livery {
+        margin-left: 10px;
     }
 }
 
