@@ -567,6 +567,15 @@ ul {
     background-color: #a21501;
 }
 
+/*--------------------------------------------------Gallery */
+
+.gallery-section .section-heading {
+    background: url(../images/gallery-section.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 /*--------------------------------------------------Footer */
 
