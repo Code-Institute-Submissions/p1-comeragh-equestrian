@@ -105,6 +105,10 @@ ul {
     background-color: transparent;
 }
 
+.bordered-icon:hover {
+    color: #c31800;
+}
+
 /*--------------------------------------------------Navigation */
 
 .navbar-main {
@@ -200,10 +204,13 @@ ul {
 }
 
 .navbar-default .navbar-nav>li>a,
-.navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li.active {
     color: #f7f4e5;
     background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #c31800;
 }
 
 .nav-links,
@@ -309,6 +316,10 @@ ul {
     text-align: center;
 }
 
+.heading a:hover hr {
+    border-color: #c31800;
+}
+
 .home-heading hr {
     border-color: #f7f4e5;
 }
@@ -366,7 +377,11 @@ ul {
     margin-top: 20px;
     color: #f7f4e5;
     background-color: #c31800;
-    border-color: #c31800
+    border-color: #f7f4e5;
+}
+
+.home-section .callout-btn:hover {
+    background-color: #a21501;
 }
 
 /* Contact */
@@ -386,19 +401,30 @@ ul {
 .home-section .contact-container .well {
     background-color: transparent;
     color: #f7f4e5;
-    border-color: #f7f4e5;
-    padding: 14px;
+    border: none;
+    padding: 0;
     height: 100px;
 }
 
 .home-section .contact-container .well a {
     color: #f7f4e5;
     display: block;
+    padding: 14px;
+    border: 1px solid #f7f4e5;
+    border-radius: 4px;
+}
+
+.home-section .contact-container .well a:hover {
+    border-color: #c31800;
 }
 
 .home-section .contact-container .well i {
     display: block;
     margin: 10px auto;
+}
+
+.home-section .contact-container .well a:hover i {
+    color: #c31800;
 }
 
 /*--------------------------------------------------About */
@@ -508,18 +534,14 @@ ul {
 }
 
 .contact-side-container .well a {
-    background-color: #333;
+    background-color: #111;
     color: #f7f4e5;
     display: block;
     padding: 20px 15px;
 }
 
-.contact-side-container .well a:hover {
-    background-color: #111;
-}
-
-.contact-side-container .well i {
-    
+.contact-side-container .well a:hover i {
+    color: #c31800;
 }
 
 .center-form {
@@ -536,8 +558,9 @@ ul {
 }
 
 .center-form button[type="submit"] {
-    background-color: #c31800;
     color: #f7f4e5;
+    background-color: #c31800;
+    border: 3px solid #d6d3c4;
 }
 
 .center-form button[type="submit"]:hover {
