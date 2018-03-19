@@ -60,6 +60,10 @@ ul {
     margin-top: 130px;
 }
 
+.section-content {
+    width: 100%;
+}
+
 .section-heading {
     height: 150px;
 }
@@ -91,7 +95,7 @@ ul {
     width: 36px;
     height: 36px;
     padding-top: 13px;
-    margin: 4px 7px;
+    margin: 4px 7px 10px;
     border-radius: 50%;
     border: 1px solid #f7f4e5;
     font-size: 17px;
@@ -497,13 +501,25 @@ ul {
 }
 
 .contact-side-container .well {
-    background-color: transparent;
-    padding: 15px;
     margin-top: 10px;
+    padding: 0;
+    border: 1px solid #000;
+    font-size: large;
+}
+
+.contact-side-container .well a {
+    background-color: #333;
+    color: #f7f4e5;
+    display: block;
+    padding: 20px 15px;
+}
+
+.contact-side-container .well a:hover {
+    background-color: #111;
 }
 
 .contact-side-container .well i {
-    background-color: #000;
+    
 }
 
 .center-form {
@@ -630,5 +646,8 @@ ul {
     .lessons-container .list-default {
         margin-left: 0;
     }
-
+    /* Contact */
+    .contact-side-container .well {
+        margin: 10px 40px;
+    }
 }
