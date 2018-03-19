@@ -61,7 +61,7 @@ ul {
 }
 
 .section-content {
-    padding-bottom: 20px;
+    /*padding-bottom: 20px;*/
 }
 
 .section-heading {
@@ -76,8 +76,8 @@ ul {
 }
 
 .section-item {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 .section-item img {
@@ -135,12 +135,13 @@ ul {
     height: 0 !important;
     overflow: hidden;
     border-color: transparent;
+    visibility: hidden;
 }
 
 .navbar-collapse.in {
     max-height: 100vh;
     height: 100vh !important;
-
+    visibility: visible;
     transition: height 0.5s ease;
 }
 
