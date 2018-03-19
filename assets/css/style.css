@@ -440,7 +440,7 @@ ul {
     background-size: cover;
 }
 
-/*--------------------------------------------------Livery*/
+/*--------------------------------------------------Livery */
 
 .livery-section .section-heading {
     background: url(../images/about-livery.jpg) no-repeat center center;
@@ -458,7 +458,7 @@ ul {
     background-color: #d6d3c4;
 }
 
-/*--------------------------------------------------Lessons*/
+/*--------------------------------------------------Lessons */
 
 .lessons-section .section-heading {
     background: url(../images/lessons-section.jpg) no-repeat center center;
@@ -475,6 +475,17 @@ ul {
 .camps {
     background-color: #d6d3c4;
 }
+
+/*--------------------------------------------------Contact */
+
+.contact-section .section-heading {
+    background: url(../images/contact-section.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 
 /*--------------------------------------------------Footer */
 
