@@ -42,9 +42,15 @@ ul {
 
 .list-default i {
     display: inline-block;
-    width: 40px;
+    width: 20%;
     text-align: center;
     padding-right: 10px;
+}
+
+.list-default .list-item-text {
+    display: inline-block;
+    width: 80%;
+    vertical-align: top;
 }
 
 .container-fluid {
@@ -599,7 +605,7 @@ ul {
     color: #f7f4e5;
 }
 
-.gallery-section .caption p{
+.gallery-section .caption p {
     margin: 0;
 }
 
@@ -638,6 +644,9 @@ ul {
         display: table-cell;
         float: none;
     }
+    .list-default {
+        margin-right: 20px;
+    }
     .section-info {
         padding: 10px 40px;
     }
@@ -665,10 +674,11 @@ ul {
     }
     .facilities {
         background-color: #d6d3c4;
-        padding-right: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .facilities .list-default {
-        margin-left: 30px;
+        margin-left: 20px;
     }
     /* Contact */
     .contact-side-container {
@@ -678,8 +688,8 @@ ul {
 
 @media (min-width: 992px) {
     /* General */
-    .home-section .bg-video {
-        left: 0;
+    .list-default .list-name {
+        margin-top: 0;
     }
     .section-heading {
         height: 200px;
@@ -689,6 +699,10 @@ ul {
     }
     .section-item img {
         padding-left: 25px;
+    }
+    /* Home */
+    .home-section .bg-video {
+        left: 0;
     }
     /* About */
     .about-link {
@@ -703,6 +717,9 @@ ul {
     }
     .lessons-container .list-default {
         margin-left: 0;
+    }
+    .facilities .list-default {
+        margin-left: 30px;
     }
     /* Contact */
     .contact-side-container .well {
