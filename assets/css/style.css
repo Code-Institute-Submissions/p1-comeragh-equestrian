@@ -589,6 +589,15 @@ ul {
     margin-bottom: 10px;
 }
 
+.gallery-section .caption {
+    background-color: #333;
+    color: #f7f4e5;
+}
+
+.gallery-section .caption p{
+    margin: 0;
+}
+
 /*--------------------------------------------------Footer */
 
 .footer {
