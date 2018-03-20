@@ -133,6 +133,11 @@ ul {
 
 /* Navbar collapse */
 
+.container-fluid>.navbar-collapse {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .navbar-main .navbar-collapse,
 .navbar-bg-image .navbar-collapse {
     display: block;
