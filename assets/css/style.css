@@ -403,12 +403,6 @@ ul {
     width: 100%;
 }
 
-.home-section .contact-container {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
 .home-section .contact-container .well {
     background-color: transparent;
     color: #f7f4e5;
