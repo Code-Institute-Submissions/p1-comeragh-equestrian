@@ -6,6 +6,8 @@
 - [Technologies](#technologies)
 - [UXD](#uxd)
 - [Wireframes](#wireframes)
+- [Github Pages](#deployed-to-github-pages)
+- [Tests and Fixes](#tests-and-fixes)
 
 ### Project Brief
 
@@ -87,8 +89,6 @@ The equestrian centre has been in business for over 20 years. You have been give
 
 #### Wireframes
 
-**Mobile**
-
 ![Mobile Wireframes](http://bit.ly/2Fx7Pdd)
 
 ![Mobile Wireframes](http://bit.ly/2oWn6Kx)
@@ -97,4 +97,84 @@ The equestrian centre has been in business for over 20 years. You have been give
 ### Deployed to Github Pages
 [https://sarahloh.github.io/p1-comeragh-equestrian/](https://sarahloh.github.io/p1-comeragh-equestrian/)
 
-### Tests Conducted
+### Tests and Fixes
+
+#### *Mobile*
+
+Tested on iPhone 5 & 6
+
+---
+
+**PROBLEM**
+
+Nav toggle off screen on mobile simulator but not on narrow chrome window
+
+**FIX** 
+
+Removed negative margin from .container-fluid>.navbar-collapse
+
+---
+
+**PROBLEM**
+
+List-default li wrap not indenting
+
+**FIX**
+
+Wrapped li text in span and set icon width:20%
+
+```css
+.list-default i {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    padding-right: 10px;
+}
+
+.list-default .list-item-text {
+    display: inline-block;
+    width: 80%;
+    vertical-align: top;
+}
+```
+
+---
+
+#### *Tablet*
+
+Tested on iPad simulator (Chrome)
+
+---
+
+**PROBLEM**
+
+Nav toggle off screen
+
+**FIX**
+
+Change margin-left to padding-left
+
+```css
+.nav-links {
+    padding-left: 60px;
+}
+```
+
+---
+
+#### *Desktop*
+
+Tested on Chrome, Safari, Firefox
+
+---
+
+**PROBLEM**
+
+Gallery column md wrapping but leaving gaps
+
+**FIX**
+
+Added rows around columns
+
+---
+
