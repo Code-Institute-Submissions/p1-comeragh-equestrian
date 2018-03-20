@@ -93,8 +93,8 @@ The equestrian centre has been in business for over 20 years. You have been give
 
 ![Mobile Wireframes](http://bit.ly/2oWn6Kx)
 
-## TODO:
 
-### Deploying to Github Pages
+### Deployed to Github Pages
+[https://sarahloh.github.io/p1-comeragh-equestrian/](https://sarahloh.github.io/p1-comeragh-equestrian/)
 
 ### Tests Conducted
