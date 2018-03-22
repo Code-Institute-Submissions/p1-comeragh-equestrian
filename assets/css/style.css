@@ -306,6 +306,9 @@ ul {
     right: 0;
     z-index: 1;
 }
+.heading {
+    display: inline-block;
+}
 
 .heading a {
     display: inline-block;
@@ -319,20 +322,20 @@ ul {
     display: block;
 }
 
-.heading hr {
+.header hr {
     width: 194px;
     border: none;
     border-top: medium double #000;
-    margin-top: -39px;
+    margin-top: -49px;
     margin-bottom: -3px;
     text-align: center;
 }
 
-.heading a:hover+hr {
+.heading:hover + hr {
     border-color: #c31800;
 }
 
-.home-heading hr {
+.header .hr-home {
     border-color: #f7f4e5;
 }
 
