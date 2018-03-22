@@ -320,14 +320,15 @@ ul {
 }
 
 .heading hr {
+    width: 194px;
     border: none;
     border-top: medium double #000;
-    margin-top: 0;
+    margin-top: -39px;
     margin-bottom: -3px;
     text-align: center;
 }
 
-.heading a:hover hr {
+.heading a:hover+hr {
     border-color: #c31800;
 }
 
