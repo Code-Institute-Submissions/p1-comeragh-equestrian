@@ -99,6 +99,10 @@ The equestrian centre has been in business for over 20 years. You have been give
 
 ### Tests and Fixes
 
+[**HTML Validator Results**](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsarahloh.github.io%2Fp1-comeragh-equestrian%2F)
+
+[**CSS Validator Results**](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsarahloh.github.io%2Fp1-comeragh-equestrian%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
 #### *Mobile*
 
 Tested on iPhone 5 & 6
