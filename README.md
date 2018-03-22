@@ -3,7 +3,7 @@
 *Developer: sarahloh*
 
 - [Project Brief](#project-brief)
-- [Technologies](#technologies)
+- [Technologies](#technologies-and-dependencies)
 - [UXD](#uxd)
 - [Wireframes](#wireframes)
 - [Github Pages](#deployed-to-github-pages)
@@ -24,11 +24,18 @@ The equestrian centre has been in business for over 20 years. You have been give
 - In addition, they are in the process of creating a social media presence and would like to add links to their Facebook, Twitter, YouTube and Instagram pages. 
 
 
-### Technologies
+### Technologies and Dependencies
 
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
 - [Bootstrap v3.3.7](https://getbootstrap.com/docs/3.3/)
+- - https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
+- - https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js
+- [Font Awesome v4.7.0](https://fontawesome.com/v4.7.0/)
+- - https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+- [jQuery v3.3.1](https://jquery.com)
+- - https://code.jquery.com/jquery-3.3.1.min.js
+
 
 
 ### UXD
