@@ -164,11 +164,22 @@ ul {
 .navbar-bg-image .navbar-collapse {
     background-color: #525252;
     width: 50%;
-    /*background: url(../images/bg-home.jpeg) no-repeat center center fixed;*/
-    /*-webkit-background-size: cover;*/
-    /*-moz-background-size: cover;*/
-    /*-o-background-size: cover;*/
-    /*background-size: cover;*/
+}
+
+.nav-image-container {
+    background: url(../images/nav-bg.jpeg) no-repeat right center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    height: 100%;
+    opacity: 0;
+}
+
+#nav-image.in .nav-image-container {
+    opacity: 1;
+    transition: opacity 1.2s ease 0.5s;
 }
 
 .navbar-main .navbar-collapse {
