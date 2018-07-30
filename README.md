@@ -6,7 +6,7 @@
 - [Technologies](#technologies-and-dependencies)
 - [UXD](#uxd)
 - [Wireframes](#wireframes)
-- [Github Pages](#deployed-to-github-pages)
+- [Deployment](#deployed-to-github-pages)
 - [Tests and Fixes](#tests-and-fixes)
 
 ### Project Brief
@@ -21,7 +21,7 @@ The equestrian centre has been in business for over 20 years. You have been give
 
 - Also, they would like to use the site to showcase their facilities, staff and activities (camps / treks).
 
-- In addition, they are in the process of creating a social media presence and would like to add links to their Facebook, Twitter, YouTube and Instagram pages. 
+- In addition, they are in the process of creating a social media presence and would like to add links to their Facebook, Twitter, YouTube and Instagram pages.
 
 
 ### Technologies and Dependencies
@@ -50,30 +50,30 @@ The equestrian centre has been in business for over 20 years. You have been give
 |           |                                                             | I want to find out about pony camp dates / cost for my child during holidays                      |                                                                                                 |
 |           |                                                             | I’m looking for address / contact information                                                     |                                                                                                 |
 |           |                                                             | I want to see what classes run and on which days                                                  |                                                                                                 |
-|           |                                                             | I want to send a message to the yard manager                                                      |                                                                                                 |                    
+|           |                                                             | I want to send a message to the yard manager                                                      |                                                                                                 |
 
 | Scope     | Focus                                                       | Functional Specification                                                                          | Content Requirements                                                                            |
 |-----------|-------------------------------------------------------------|---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-|           | Which features?                                             | About                                                                                             | Send a message                                                                                  |                    
-|           | What’s on the table?                                        | Contact                                                                                           | Access links to social media                                                                    |                    
-|           |                                                             | Social                                                                                            | Read about the team                                                                             |                    
-|           |                                                             | Livery                                                                                            | Access phone number                                                                             |                   
-|           |                                                             | Team                                                                                              | Access location                                                                                 |                    
-|           |                                                             | Gallery                                                                                           | Read about pony camps (dates / cost / activities)                                               |                    
-|           |                                                             | Pony Camp                                                                                         | Read about riding lessons / treks / trails (dates / cost / groups / individual / adult / child) |                   
-|           |                                                             | Riding Lessons                                                                                    | Read about the livery facilities at the yard                                                    |                   
-|           |                                                             | ~~Work With Us~~                                                                                  | View photo gallery / videos                                                                     |                    
-|           |                                                             |                                                                                                   | ~~View and apply for a job~~                                                                    |                    
-|           |                                                             |                                                                                                   | ~~Book a lesson / trek using online calendar~~                                                  |                    
+|           | Which features?                                             | About                                                                                             | Send a message                                                                                  |
+|           | What’s on the table?                                        | Contact                                                                                           | Access links to social media                                                                    |
+|           |                                                             | Social                                                                                            | Read about the team                                                                             |
+|           |                                                             | Livery                                                                                            | Access phone number                                                                             |
+|           |                                                             | Team                                                                                              | Access location                                                                                 |
+|           |                                                             | Gallery                                                                                           | Read about pony camps (dates / cost / activities)                                               |
+|           |                                                             | Pony Camp                                                                                         | Read about riding lessons / treks / trails (dates / cost / groups / individual / adult / child) |
+|           |                                                             | Riding Lessons                                                                                    | Read about the livery facilities at the yard                                                    |
+|           |                                                             | ~~Work With Us~~                                                                                  | View photo gallery / videos                                                                     |
+|           |                                                             |                                                                                                   | ~~View and apply for a job~~                                                                    |
+|           |                                                             |                                                                                                   | ~~Book a lesson / trek using online calendar~~                                                  |
 
-| Structure | Focus                                                       | Interaction Design                                                                                | Information Architecture                                                                        |                    
+| Structure | Focus                                                       | Interaction Design                                                                                | Information Architecture                                                                        |
 |-----------|-------------------------------------------------------------|---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-|           | How is the information structured?                          | Where am I? / How did I get here? / What can I do here? / Where can I go?                         | Organizational / Navigational schemas (tree / nested list / hub and spoke / dashboard)          |                    
-|           |                                                             |                                                                                                   | HOME                                                                                            |                    
-|           | How is it logically grouped?                                | Mobile - hamburger navigation                                                                     | About - Welcome / Lessons / Livery                                                              |                    
-|           |                                                             | Desktop - fixed navbar                                                                            | Livery                                                                                          |                    
+|           | How is the information structured?                          | Where am I? / How did I get here? / What can I do here? / Where can I go?                         | Organizational / Navigational schemas (tree / nested list / hub and spoke / dashboard)          |
+|           |                                                             |                                                                                                   | HOME                                                                                            |
+|           | How is it logically grouped?                                | Mobile - hamburger navigation                                                                     | About - Welcome / Lessons / Livery                                                              |
+|           |                                                             | Desktop - fixed navbar                                                                            | Livery                                                                                          |
 |           |                                                             |                                                                                                   | Camps & Lessons - Pony Camp / Lessons / Treks / Trails                                          |
-|           |                                                             |                                                                                                   | Gallery - Photo Albums / Videos                                                                 |                    
+|           |                                                             |                                                                                                   | Gallery - Photo Albums / Videos                                                                 |
 |           |                                                             |                                                                                                   | Contact - Phone / Location / Message                                                            |
 
 | Skeleton  | Focus                                                       | Interface Design                                                                                  | Navigational Design |                                                      | Information Design |
@@ -86,13 +86,13 @@ The equestrian centre has been in business for over 20 years. You have been give
 |           |                                                             |                                                                                                   | Gallery             |                                                      |                    |
 |           |                                                             |                                                                                                   | Contact             |                                                      |                    |
 
-| Surface   | Focus                                                       | Visual Design                                                                                                                                                                                                                         
+| Surface   | Focus                                                       | Visual Design
 |-----------|-------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 |           | What will the finished product look like?                   | Fonts: @import url('https://fonts.googleapis.com/css?family=Poppins:300&#124;Roboto:300,400');                            |
 |           |                                                             | 2b2118                                                                                                               |
 |           | What colours, typography and design elements will be used?  | 894334                                                                                                               |
 |           |                                                             | f7f4e5                                                                                                               |
-|           |                                                             |                                                                                                                      |                    
+|           |                                                             |                                                                                                                      |
 
 #### Wireframes
 
@@ -102,7 +102,10 @@ The equestrian centre has been in business for over 20 years. You have been give
 
 
 ### Deployed to Github Pages
-[https://sarahloh.github.io/p1-comeragh-equestrian/](https://sarahloh.github.io/p1-comeragh-equestrian/)
+
+- Go to project repo settings on Github
+- Select master branch and click save
+- Project link: [https://sarahloh.github.io/p1-comeragh-equestrian/](https://sarahloh.github.io/p1-comeragh-equestrian/)
 
 ### Tests and Fixes
 
@@ -120,7 +123,7 @@ Tested on iPhone 5 & 6
 
 Nav toggle off screen on mobile simulator but not on narrow chrome window
 
-**FIX** 
+**FIX**
 
 Removed negative margin from .container-fluid>.navbar-collapse
 
